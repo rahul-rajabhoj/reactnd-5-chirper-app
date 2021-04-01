@@ -5,7 +5,6 @@ import Tweet from './Tweet'
 class Dashboard extends React.Component {
     render() {
         const { tweetIds } = this.props
-        console.log('TweetIds : ', tweetIds)
         return(
             <div>
                 <h3 className='center'>Your Timeline</h3>
