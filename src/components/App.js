@@ -5,6 +5,7 @@ import { handleInitialData } from '../actions/shared'
 
 import Dashboard from './Dashboard'
 import NewTweet from './NewTweet'
+import TweetPage from './TweetPage'
 
 class App extends Component {
 
@@ -19,7 +20,7 @@ class App extends Component {
         <LoadingBar />
         { loading 
           ? null 
-          : <NewTweet /> 
+          : <TweetPage match={{params: {id: '8xf0y6ziyjabvozdd253nd'}}} /> 
         }
       </div>
     )
